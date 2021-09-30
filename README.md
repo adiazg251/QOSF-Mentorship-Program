@@ -15,7 +15,7 @@ and returns a quantum state which is a superposition of indices of the target so
    
 The method to follow for this task is to start from an array of integers as input, pass them to a binary representation and you need to find those integers whose binary representation is such that two adjacent bits are different. Once you have found those integers, you must output a superposition of states where each state is a binary representation of the indices of those integers.
 
-The solution is presented in three files:
+The solution is presented in three files, done in Qiskit:
 
     Task1 : main solution of the problem, with n=2 and m=4, with input vector [1,5,7,10]
     
